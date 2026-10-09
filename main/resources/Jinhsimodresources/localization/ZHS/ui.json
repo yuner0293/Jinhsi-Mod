@@ -1,0 +1,50 @@
+{
+  "JinhsiSkinNames": {
+    "TEXT": [
+      "初始皮肤",
+      "桃夭灼灼",
+      "枕梦山河"
+    ]
+  },
+  "JinhsiModConfigMenu": {
+    "TEXT": [
+      "打完心脏后挑战岁主 (开启后进入专属事件)",
+      "启用全部异画（勾选全部启用，取消全部禁用）"
+    ]
+  },
+  "SignatureLib:SCVPanel": {
+    "TEXT": [
+      "启用异画",
+      "异画未解锁",
+      "隐藏描述",
+      "解锁条件："
+    ]
+  },
+
+  "SignatureLib:ModPanel": {
+    "TEXT": [
+      "异画库",
+      "允许你为一些卡牌添加酷酷的异画！"
+    ]
+  },
+
+  "SignatureLib:New": {
+    "TEXT": [
+      "新异画解锁！",
+      "新！"
+    ]
+  },
+
+  "SignatureLib:SignatureOnly": {
+    "TEXT": [
+      "只看有异画"
+    ]
+  },
+
+  "SignatureLib:GameOverScreen": {
+    "TEXT": [
+      "解锁新异画！",
+      "提示：你可以在大图预览界面切换是否启用异画。"
+    ]
+  }
+}

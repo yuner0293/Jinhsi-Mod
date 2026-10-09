@@ -1,0 +1,50 @@
+{
+  "JinhsiSkinNames": {
+    "TEXT": [
+      "Initial Skin",
+      "Blushing Peach Bloom",
+      "Dreaming of Landscapes"
+    ]
+  },
+  "JinhsiModConfigMenu": {
+    "TEXT": [
+      "Challenge SuiZhu after Corrupt Heart (Enables custom event)",
+      "Enable all alternate arts (Check 'Enable All', uncheck 'Disable All')"
+    ]
+  },
+  "SignatureLib:SCVPanel": {
+    "TEXT": [
+      "Signature",
+      "Signature Locked",
+      "Hide Description",
+      "Unlock Condition:"
+    ]
+  },
+
+  "SignatureLib:ModPanel": {
+    "TEXT": [
+      "STS Signature Lib",
+      "Allows you to add cool Signature cards to your mod!"
+    ]
+  },
+
+  "SignatureLib:New": {
+    "TEXT": [
+      "New Signature!",
+      "New!"
+    ]
+  },
+
+  "SignatureLib:SignatureOnly": {
+    "TEXT": [
+      "Signature Only"
+    ]
+  },
+
+  "SignatureLib:GameOverScreen": {
+    "TEXT": [
+      "Signature Unlocked!",
+      "Tip: You can switch whether to enable Signature in single card view."
+    ]
+  }
+}

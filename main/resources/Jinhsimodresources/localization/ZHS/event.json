@@ -1,0 +1,21 @@
+{
+  "Jinhsimod:Destiny": {
+    "NAME": "登顶乘宵山",
+    "DESCRIPTIONS": [
+      "历经艰辛，你已来到乘宵山顶 NL 岁主与你相约于此决战 NL 作出你的选择"
+    ],
+    "OPTIONS": [
+      "[迎战] 挑战岁主，直面宿命。（满血挑战岁主）",
+      "[撤退] 暂离此地，做足准备。（赢得胜利）"
+    ]
+  },
+  "Jinhsimod:ShiShuoEvent": {
+    "NAME": "时朔",
+    "DESCRIPTIONS": [
+      "角发动了最后的时序之能，你将被回溯到过去..."
+    ],
+    "OPTIONS": [
+      "继续"
+    ]
+  }
+}

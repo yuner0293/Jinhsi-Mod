@@ -1,0 +1,21 @@
+{
+  "Jinhsimod:Destiny": {
+    "NAME": "Summit of Mt. Firmament",
+    "DESCRIPTIONS": [
+      "After countless hardships, you have reached the peak of Mt. Firmament. NL Jue awaits you here for the final confrontation. NL Make your choice."
+    ],
+    "OPTIONS": [
+      "[Challenge] Face Jue and embrace your destiny. (Challenge Jue with Full HP)",
+      "[Retreat] Leave for now and prepare further. (Win the run)"
+    ]
+  },
+  "Jinhsimod:ShiShuoEvent": {
+    "NAME": "Temporal Rewind",
+    "DESCRIPTIONS": [
+      "Jue activates the final power of temporal order. You are being rewound to the past..."
+    ],
+    "OPTIONS": [
+      "Continue"
+    ]
+  }
+}

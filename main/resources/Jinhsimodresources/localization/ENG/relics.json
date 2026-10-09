@@ -1,0 +1,43 @@
+{
+  "Jinhsimod:Drscale": {
+    "NAME": "Loong Scale",
+    "FLAVOR": "Jinhsi once drowned in a dream, clinging to driftwood, riding the reverse tidal flow back to shore.When she woke up, what she was holding in her hand was a piece of scale. If you look closely, you'll notice that the scale looks similar.to the ones on the Sentinel's body..",
+    "DESCRIPTIONS": [
+      "Each time you attack an enemy, gain 1 #ykeyword:incandescence. NL Each time you play an Attack card, gain 1 #ykeyword:chrono-rhyme ."
+    ]
+  },
+  "Jinhsimod:HJJCsheng": {
+    "NAME": "Luminal Synthesis",
+    "FLAVOR": "Resonance Ability",
+    "DESCRIPTIONS": [
+      "Has 6 tiers of special effects. Each #ykeyword:convene unlocks 1 tier.",
+      "Tier 1: For every 10 Incandescence gained, draw 1 card",
+      "Tier 2: At the start of turn, gain 5 Incandescence",
+      "Tier 3: At the start of combat, gain 4 chrono-rhyme.",
+      "Tier 4: At the end of turn, gain Block equal to half of your Incandescence",
+      "Tier 5: Gain 1 Strength and 1 Dexterity for every 35 Incandescence gained",
+      "Tier 6: At the start of combat, gain #ykeyword:thawing-triumph"
+    ]
+  },
+  "Jinhsimod:XLbao": {
+    "NAME": "Loong Bun",
+    "FLAVOR": "A plate of Loong Buns made by Loong Bun Jinhsi herself, each adopting a pink hue and a sprinkling of osmanthus powdered sugar.",
+    "DESCRIPTIONS": [
+      "Unlocks your Incandescence cap. Effects that spend Incandescence now reduce it by 50 instead. "
+    ]
+  },
+  "Jinhsimod:YueKa": {
+    "NAME": "Lunar Observation Card",
+    "FLAVOR": "A token for tracking lunar phases.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain 3 Gold and add a Huanyu card to your hand. At the start of the turn, lose 1/3 of the stacks of keyword:incandescence"
+    ]
+  },
+  "Jinhsimod:DBSxiang": {
+    "NAME": "To-Do List",
+    "FLAVOR": "The Chancellor is always busy - night deployments, Celestial Engineering affairs... So Jinxi asked the Huaxu Research Institute to develop a portable to-do list for reviewing documents while on the go.",
+    "DESCRIPTIONS": [
+      "Gain 1 Energy at the start of each turn and trigger 1 instance of #ykeyword:chrono-rhyme ."
+    ]
+  }
+}

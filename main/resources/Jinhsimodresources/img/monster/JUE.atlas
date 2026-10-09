@@ -1,0 +1,146 @@
+
+JUE.png
+size: 1919,999
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 602, 12
+  size: 344, 188
+  orig: 344, 188
+  offset: 0, 0
+  index: -1
+guazhui1
+  rotate: false
+  xy: 1859, 541
+  size: 37, 137
+  orig: 38, 137
+  offset: 1, 0
+  index: -1
+guazhui2
+  rotate: false
+  xy: 1859, 541
+  size: 37, 137
+  orig: 38, 137
+  offset: 1, 0
+  index: -1
+guazhui3
+  rotate: false
+  xy: 1859, 541
+  size: 37, 137
+  orig: 38, 137
+  offset: 1, 0
+  index: -1
+guazhui4
+  rotate: false
+  xy: 1859, 541
+  size: 37, 137
+  orig: 38, 137
+  offset: 1, 0
+  index: -1
+guazhui2_0
+  rotate: true
+  xy: 1191, 454
+  size: 13, 88
+  orig: 13, 88
+  offset: 0, 0
+  index: -1
+guazhuileft1
+  rotate: true
+  xy: 2, 2
+  size: 23, 131
+  orig: 23, 131
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 1752, 522
+  size: 105, 156
+  orig: 105, 156
+  offset: 0, 0
+  index: -1
+hair10
+  rotate: true
+  xy: 1752, 680
+  size: 317, 165
+  orig: 317, 165
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 2, 27
+  size: 185, 598
+  orig: 204, 598
+  offset: 19, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 693, 202
+  size: 204, 546
+  orig: 204, 546
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: false
+  xy: 1504, 449
+  size: 246, 548
+  orig: 246, 548
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: false
+  xy: 1191, 469
+  size: 311, 528
+  orig: 311, 528
+  offset: 0, 0
+  index: -1
+hair6
+  rotate: true
+  xy: 948, 41
+  size: 159, 302
+  orig: 159, 302
+  offset: 0, 0
+  index: -1
+hair7
+  rotate: false
+  xy: 693, 408
+  size: 496, 589
+  orig: 502, 589
+  offset: 6, 0
+  index: -1
+hair8
+  rotate: false
+  xy: 1252, 15
+  size: 345, 205
+  orig: 345, 205
+  offset: 0, 0
+  index: -1
+hair9
+  rotate: true
+  xy: 1728, 268
+  size: 179, 78
+  orig: 179, 78
+  offset: 0, 0
+  index: -1
+lefthuzi
+  rotate: true
+  xy: 1599, 5
+  size: 215, 182
+  orig: 215, 182
+  offset: 0, 0
+  index: -1
+righthuzi
+  rotate: false
+  xy: 1241, 222
+  size: 485, 225
+  orig: 485, 225
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 214
+  size: 689, 783
+  orig: 689, 783
+  offset: 0, 0
+  index: -1

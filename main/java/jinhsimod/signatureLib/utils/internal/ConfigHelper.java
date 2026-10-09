@@ -1,0 +1,183 @@
+package jinhsimod.signatureLib.utils.internal;
+
+import basemod.ModLabeledButton;
+import basemod.ModLabeledToggleButton;
+import basemod.ModPanel;
+import com.badlogic.gdx.Gdx;
+import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.FontHelper;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.Map;
+import java.util.Properties;
+
+public class ConfigHelper {
+    public static final String ALWAYS_SHOW_DESCRIPTIONS = "alwaysShowDescriptions";
+	public static final String ENABLE_DEBUGGING = "enableDebugging";
+	public static final String ENABLE_DEBUGGING_NOTE = "enableDebuggingNote";
+	public static final String SIGNATURE_UNLOCKED = "signatureUnlocked_";
+	public static final String SIGNATURE_ENABLED = "signatureEnabled_";
+	public static final String SIGNATURE_NOTICE = "signatureNotice_";
+	
+	public static SpireConfig conf = null;
+	public static Map<String, String> strings;
+
+	public static void loadConfig() {
+		try {
+			Properties defaults = new Properties();
+            defaults.setProperty(ALWAYS_SHOW_DESCRIPTIONS, "false");
+			defaults.setProperty(ENABLE_DEBUGGING, "false");
+
+			conf = new SpireConfig("SignatureLib", "config", defaults);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+    public static boolean alwaysShowDescriptions() {
+        return conf.getBool(ALWAYS_SHOW_DESCRIPTIONS);
+    }
+
+    public static void setAlwaysShowDescriptions(boolean alwaysShowDescriptions) {
+        conf.setBool(ALWAYS_SHOW_DESCRIPTIONS, alwaysShowDescriptions);
+        save();
+    }
+
+	public static boolean enableDebugging() {
+		return conf.getBool(ENABLE_DEBUGGING);
+	}
+	
+	public static void setEnableDebugging(boolean enableDebugging) {
+		conf.setBool(ENABLE_DEBUGGING, enableDebugging);
+		save();
+	}
+
+	public static boolean isSignatureUnlocked(String id) {
+		String key = SIGNATURE_UNLOCKED + id;
+		return conf.has(key) && conf.getBool(key);
+	}
+
+	public static void setSignatureUnlocked(String id, boolean unlocked) {
+		conf.setBool(SIGNATURE_UNLOCKED + id, unlocked);
+		save();
+	}
+
+	public static boolean isSignatureEnabled(String id) {
+		String key = SIGNATURE_ENABLED + id;
+		return conf.has(key) && conf.getBool(key);
+	}
+
+	public static void setSignatureEnabled(String id, boolean enabled) {
+		conf.setBool(SIGNATURE_ENABLED + id, enabled);
+		save();
+	}
+
+	public static boolean signatureNotice(String id) {
+		String key = SIGNATURE_NOTICE + id;
+		return !conf.has(key) || conf.getBool(key); // default to true
+	}
+
+	public static void setSignatureNotice(String id, boolean notice) {
+		conf.setBool(SIGNATURE_NOTICE + id, notice);
+		save();
+	}
+
+	public static void removeNotice(String id) {
+		String key = SIGNATURE_NOTICE + id;
+		if (conf.has(key)) {
+			conf.remove(key);
+			save();
+		}
+	}
+	
+	public static void save() {
+		try {
+			conf.save();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static ModPanel createConfigPanel() {
+		ModPanel panel = new ModPanel();
+		
+		Gson gson = new Gson();
+		String json = Gdx.files.internal("SignatureLib/localization/" +
+						MiscHelper.getLangShort() + "/config.json")
+				.readString(String.valueOf(StandardCharsets.UTF_8));
+		strings = gson.fromJson(json, (new TypeToken<Map<String, String>>() {}).getType());
+		
+		float y = 700.0F;
+
+        ModLabeledToggleButton alwaysShowDescriptionButton = new ModLabeledToggleButton(
+                strings.get(ALWAYS_SHOW_DESCRIPTIONS),
+                strings.get(ALWAYS_SHOW_DESCRIPTIONS + "Note"),
+                350.0F,
+                y,
+                Settings.CREAM_COLOR,
+                FontHelper.charDescFont,
+				alwaysShowDescriptions(),
+                panel,
+                (modLabel) -> {},
+                (button) -> {
+                    setAlwaysShowDescriptions(button.enabled);
+                }
+        );
+        panel.addUIElement(alwaysShowDescriptionButton);
+
+        y -= 50.0F;
+		
+		ModLabeledToggleButton enableDebuggingButton = new ModLabeledToggleButton(
+				strings.get(ENABLE_DEBUGGING),
+				strings.get(ENABLE_DEBUGGING_NOTE),
+				350.0F,
+				y,
+				Settings.CREAM_COLOR,
+				FontHelper.charDescFont,
+				enableDebugging(),
+				panel,
+				(modLabel) -> {},
+				(button) -> {
+					setEnableDebugging(button.enabled);
+//					save();
+				}
+		);
+		panel.addUIElement(enableDebuggingButton);
+		
+		y -= 100.0F;
+		
+		ModLabeledButton clearNoticesButton = new ModLabeledButton(
+				strings.get("clearNotices"),
+				350.0F,
+				y,
+				Settings.CREAM_COLOR,
+				Settings.BLUE_TEXT_COLOR,
+				panel,
+				(button) -> {
+					SignatureHelperInternal.clearNotices();
+				}
+		);
+		panel.addUIElement(clearNoticesButton);
+
+		y -= 75.0F;
+
+		ModLabeledButton resetNoticesButton = new ModLabeledButton(
+				strings.get("resetNotices"),
+				350.0F,
+				y,
+				Settings.CREAM_COLOR,
+				Settings.GREEN_TEXT_COLOR,
+				panel,
+				(button) -> {
+					SignatureHelperInternal.resetNotices();
+				}
+		);
+		panel.addUIElement(resetNoticesButton);
+		
+		return panel;
+	}
+}

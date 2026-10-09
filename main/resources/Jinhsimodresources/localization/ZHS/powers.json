@@ -1,0 +1,160 @@
+{
+  "Jinhsimod:shaoguang": {
+    "NAME": "韶光",
+    "DESCRIPTIONS": [
+      "当前拥有",
+      "点韶光。上限为50",
+      "点韶光。无上限！！！"
+    ]
+  },
+  "Jinhsimod:Shiyun": {
+    "NAME": "时韵",
+    "DESCRIPTIONS": [
+      "当前拥有",
+      "点时韵。某些卡牌需要足够的点数才能使用，上限为4，触发后清空"
+    ]
+  },
+  "Jinhsimod:RYSSky": {
+    "NAME": "乘岁凌霄",
+    "DESCRIPTIONS": [
+      "当前拥有",
+      "点乘岁凌霄。 NL 获得25%增伤与25%减伤 NL 每回合结束减少1点"
+    ]
+  },
+  "Jinhsimod:HJYFchun": {
+    "NAME": "寒尽又逢春",
+    "DESCRIPTIONS": [
+      "造成的伤害提升 #b",
+      "%"
+    ]
+  },
+  "Jinhsimod:Zhuopower": {
+    "NAME": "灼",
+    "DESCRIPTIONS": [
+      "每回合开始，随机攻击敌人",
+      "次，每次造成1点伤害"
+    ]
+  },
+  "Jinhsimod:Chenpower": {
+    "NAME": "沉",
+    "DESCRIPTIONS": [
+      "每回合开始，获得1点 [E] NL 减少",
+      "点时韵 NL 不可叠加"
+    ]
+  },
+  "Jinhsimod:Suiyun": {
+    "NAME": "岁蕴",
+    "DESCRIPTIONS": [
+      "每回合1次，触发 #y时韵 时，获得",
+      "点 力量 "
+    ]
+  },
+  "Jinhsimod:Fuze": {
+    "NAME": "福泽",
+    "DESCRIPTIONS": [
+      "每回合1次，当前每有5点 #y韶光 ，消耗韶光的牌伤害+",
+      "。"
+    ]
+  },
+  "Jinhsimod:FanJi": {
+    "NAME": "反击",
+    "DESCRIPTIONS": [
+      "被敌人攻击时对敌人造成",
+      "点伤害。"
+    ]
+  },
+  "Jinhsimod:ZYCxipower": {
+    "NAME": "朝月辰夕",
+    "DESCRIPTIONS": [
+      "本回合内，每触发1次 #y时韵 当前手牌费用-1,不可叠加"
+    ]
+  },
+  "Jinhsimod:Rongpower": {
+    "NAME": "绒",
+    "DESCRIPTIONS": [
+      "每打出1张技能牌，获得",
+      "点 #y时韵 "
+    ]
+  },
+  "Jinhsimod:Junpower": {
+    "NAME": "君",
+    "DESCRIPTIONS": [
+      "每次触发 #y时韵 ，获得 ",
+      "点能量"
+    ]
+  },
+  "Jinhsimod:Guangpower": {
+    "NAME": "光",
+    "DESCRIPTIONS": [
+      "回合结束，每有2点格挡，获得",
+      "点 #y韶光 "
+    ]
+  },
+  "Jinhsimod:Qyuepower": {
+    "NAME": "清月",
+    "DESCRIPTIONS": [
+      "下张攻击牌将 #y协同攻击 ",
+      "。"
+    ]
+  },
+  "Jinhsimod:Jfanpower": {
+    "NAME": "镜反",
+    "DESCRIPTIONS": [
+      "#y反击 敌人时，额外随机攻击敌人",
+      "次，造成本次 #y反击 值的伤害"
+    ]
+  },
+  "Jinhsimod:GHBJipower": {
+    "NAME": "光合标记",
+    "DESCRIPTIONS": [
+      "每打出1张攻击牌， #y协同攻击",
+      ""
+    ]
+  },
+  "Jinhsimod:JinGu": {
+    "NAME": "禁锢",
+    "DESCRIPTIONS": [
+      "这名敌人",
+      "回合无法行动"
+    ]
+  },
+  "Jinhsimod:Yushipower": {
+    "NAME": "驭时",
+    "DESCRIPTIONS": [
+      "本回合，每触发2次 #y时韵 ，随机 #y禁锢 1名敌人"
+    ]
+  },
+  "Jinhsimod:Fanpower": {
+    "NAME": "泛",
+    "DESCRIPTIONS": [
+      "#y反击 对全体敌人生效"
+    ]
+  },
+  "Jinhsimod:Xipower": {
+    "NAME": "汐",
+    "DESCRIPTIONS": [
+      "每次触发 #y时韵 ，获得",
+      "点 #y时韵"
+    ]
+  },
+  "Jinhsimod:CMSzhangpower": {
+    "NAME": "草木生长",
+    "DESCRIPTIONS": [
+      "每次触发 #y协同攻击 ,将额外攻击敌人",
+      "次，并获得5点格挡"
+    ]
+  },
+  "Jinhsimod:Huanpower": {
+    "NAME": "幻",
+    "DESCRIPTIONS": [
+      "每反击敌人2点伤害，获得",
+      "点反击"
+    ]
+  },
+  "Jinhsimod:SuiZhujue": {
+    "NAME": "时序",
+    "DESCRIPTIONS": [
+      "岁主•角： NL 500击破值归零时，进入两回合眩晕 NL 血量分别减少到60%、20%时锁血，进入下一阶段"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "NAMES": [
+      "incandescence"
+    ],
+    "DESCRIPTION": "Provides a positive effect for certain cards, with an upper limit of 50."
+  },
+  {
+    "NAMES": [
+      "chrono-rhyme"
+    ],
+    "DESCRIPTION": "Certain cards require a sufficient number of points to trigger additional effects, with an upper limit of 4. Points are cleared after triggering."
+  },
+  {
+    "NAMES": [
+      "incarnation"
+    ],
+    "DESCRIPTION": "Gain 25% increased damage and 25% damage reduction. NL Reduce by 1 at the end of turn."
+  },
+  {
+    "NAMES": [
+      "convene"
+    ],
+    "DESCRIPTION": "Unlock 1 stack of luminal-synthesis effect."
+  },
+  {
+    "NAMES": [
+      "thawing-triumph"
+    ],
+    "DESCRIPTION": "Gain 50% increased damage."
+  },
+  {
+    "NAMES": [
+      "ageless-marking"
+    ],
+    "DESCRIPTION": "Once per turn, when keyword:chrono-rhyme is triggered, gain 1 Strength."
+  },
+  {
+    "NAMES": [
+      "ethereal-endowment"
+    ],
+    "DESCRIPTION": "Once per turn, for every 5 Incandescence you have, cards that spend Incandescence deal +1 damage."
+  },
+  {
+  "NAMES": [
+    "Jue"
+  ],
+  "DESCRIPTION": "Deal 20 damage to yourself. NL Upon death, deal 30 damage to ALL enemies and apply 2 Vulnerable."
+},
+  {
+    "NAMES": [
+      "counterattack"
+    ],
+    "DESCRIPTION": "When attacked by an enemy, counterattack once, dealing damage equal to your Counterattack stacks."
+  },
+  {
+    "NAMES": [
+      "coordinated-attack"
+    ],
+    "DESCRIPTION": "Deal an additional instance of damage to the enemy. Gain Coordinated-attack value points of Incandescence."
+  },
+  {
+    "NAMES": [
+      "confinement"
+    ],
+    "DESCRIPTION": "This enemy cannot act this turn."
+  },
+  {
+    "NAMES": [
+      "luminal-synthesis"
+    ],
+    "DESCRIPTION": "Starting Relic"
+  }
+]

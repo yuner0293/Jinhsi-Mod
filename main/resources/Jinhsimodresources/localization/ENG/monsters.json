@@ -1,0 +1,22 @@
+{
+  "Jinhsimod:Jue": {
+    "NAME": "Jue",
+    "MOVE": ["Deals 20 damage to itself. Upon death, deals 30 damage and applies 2 Vulnerable to all enemies."],
+    "DIALOG": []
+  },
+  "Jinhsimod:SuiZhu": {
+    "NAME": "Jue, Sentinel of Mt. Firmament",
+    "DIALOG": [
+      "Utterly preposterous.",
+      "",
+      ""
+    ],
+    "MOVES":[
+      "Shatter!!!",
+      "Grievous Strike!!!",
+      "Charging",
+      "Imprison",
+      "Sentinel Rhyme"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "Jinhsimod:shaoguang": {
+    "NAME": "Incandescence",
+    "DESCRIPTIONS": [
+      "Currently has",
+      "Incandescence. Max 50.",
+      "Incandescence. NO MAXIMUM!!!"
+    ]
+  },
+  "Jinhsimod:Shiyun": {
+    "NAME": "Chrono-Rhyme",
+    "DESCRIPTIONS": [
+      "Currently has ",
+      "Chrono-Rhyme. Certain cards require sufficient points to use, max 4, cleared after trigger."
+    ]
+  },
+  "Jinhsimod:RYSSky": {
+    "NAME": "incarnation",
+    "DESCRIPTIONS": [
+      "Currently has",
+      "Incarnation。 NL Gain 25% increased damage and 25% damage reduction. NL Reduce by 1 at the end of turn."
+    ]
+  },
+  "Jinhsimod:HJYFchun": {
+    "NAME": "thawing-triumph",
+    "DESCRIPTIONS": [
+      "Deal #b",
+      "% more damage."
+    ]
+  },
+  "Jinhsimod:Zhuopower": {
+    "NAME": "Scorch",
+    "DESCRIPTIONS": [
+      "At start of turn, randomly attack enemies ",
+      " times, dealing 1 damage each time."
+    ]
+  },
+  "Jinhsimod:Chenpower": {
+    "NAME": "Abyssal",
+    "DESCRIPTIONS": [
+      "At start of turn, gain 1 [E] NL Reduce ",
+      "Chrono-Rhyme. NL Does not stack."
+    ]
+  },
+  "Jinhsimod:Suiyun": {
+    "NAME": "Ageless-Marking",
+    "DESCRIPTIONS": [
+      "Once per turn, when Chrono-Rhyme is triggered, gain ",
+      " Strength."
+    ]
+  },
+  "Jinhsimod:Fuze": {
+    "NAME": "Divine-Blessing",
+    "DESCRIPTIONS": [
+      "Once per turn, for every 5 Incandescence you have, cards that spend Incandescence deal +",
+      " damage."
+    ]
+  },
+  "Jinhsimod:FanJi": {
+    "NAME": "Counterattack",
+    "DESCRIPTIONS": [
+      "When attacked by an enemy, counterattack dealing ",
+      " damage."
+    ]
+  },
+  "Jinhsimod:ZYCxipower": {
+    "NAME": "Bask in starlight",
+    "DESCRIPTIONS": [
+      "This turn, for each time Chrono-Rhyme is triggered, reduce cost of cards in hand by 1. Does not stack."
+    ]
+  },
+  "Jinhsimod:Rongpower": {
+    "NAME": "Velvet",
+    "DESCRIPTIONS": [
+      "Each time you play a Skill card, gain ",
+      "Chrono-Rhyme."
+    ]
+  },
+  "Jinhsimod:Junpower": {
+    "NAME": "Sovereign",
+    "DESCRIPTIONS": [
+      "Each time Chrono-Rhyme is triggered, gain ",
+      " [E]."
+    ]
+  },
+  "Jinhsimod:Guangpower": {
+    "NAME": "Luminous",
+    "DESCRIPTIONS": [
+      "At end of turn, for every 2 Block you have, gain ",
+      " Incandescence."
+    ]
+  },
+  "Jinhsimod:Qyuepower": {
+    "NAME": "Luna-Purity",
+    "DESCRIPTIONS": [
+      "Your next Attack card gains Coordinated-Attack: ",
+      "."
+    ]
+  },
+  "Jinhsimod:Jfanpower": {
+    "NAME": "Mirror-Riposte",
+    "DESCRIPTIONS": [
+      "When Counterattack triggers, randomly attack enemies ",
+      " additional times, dealing damage equal to this Counterattack value."
+    ]
+  },
+  "Jinhsimod:GHBJipower": {
+    "NAME": "Photosynthetic-Mark",
+    "DESCRIPTIONS": [
+      "Each time you play an Attack card, Coordinated-Attack: ",
+      ""
+    ]
+  },
+  "Jinhsimod:JinGu": {
+    "NAME": "Confinement",
+    "DESCRIPTIONS": [
+      "This enemy cannot act for ",
+      " turns."
+    ]
+  },
+  "Jinhsimod:Yushipower": {
+    "NAME": "Chrono-Command",
+    "DESCRIPTIONS": [
+      "This turn, for every 2 times Chrono-Rhyme is triggered, randomly apply Confinement to 1 enemy."
+    ]
+  },
+  "Jinhsimod:Fanpower": {
+    "NAME": "Pervasion",
+    "DESCRIPTIONS": [
+      "Counterattack affects ALL enemies."
+    ]
+  },
+  "Jinhsimod:Xipower": {
+    "NAME": "Xi",
+    "DESCRIPTIONS": [
+      "Each time Chrono-Rhyme is triggered, gain ",
+      " Chrono-Rhyme."
+    ]
+  },
+  "Jinhsimod:CMSzhangpower": {
+    "NAME": "Flora-Growth",
+    "DESCRIPTIONS": [
+      "Each time Coordinated-Attack is triggered, attack enemies ",
+      " additional times and gain 5 Block."
+    ]
+  },
+  "Jinhsimod:Huanpower": {
+    "NAME": "Phantasm",
+    "DESCRIPTIONS": [
+      "For every 2 damage from counterattack, gain ",
+      " Counterattack."
+    ]
+  }
+}

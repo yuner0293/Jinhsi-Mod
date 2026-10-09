@@ -1,0 +1,327 @@
+{
+  "Jinhsimod:SoBDawn": {
+    "NAME": "Slash of Breaking Dawn",
+    "DESCRIPTION": "Deal !D! damage twice.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage twice."
+  },
+  "Jinhsimod:Dodge": {
+    "NAME": "Dodge",
+    "DESCRIPTION": "Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block."
+  },
+  "Jinhsimod:FLAEshadow": {
+    "NAME": "Trailing Lights of Eons",
+    "DESCRIPTION": "Deal !D! damage twice NL keyword:chrono-rhyme !M! :Cost reduced to 0, add *Overflowing-Radiance to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage twice NL keyword:chrono-rhyme !M!:Cost reduced to 0, add *Overflowing-Radiance+ to your hand."
+  },
+  "Jinhsimod:SFeimang": {
+    "NAME": "Overflowing-Radiance",
+    "DESCRIPTION": "Gain !B! Block NL Gain keyword:incarnation !M! NL add *Illuminous-Epiphany to your hand",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block NL Gain keyword:incarnation !M! NL add *Illuminous-Epiphany+ to your hand"
+  },
+  "Jinhsimod:JBAir": {
+    "NAME": "Illuminous-Epiphany",
+    "DESCRIPTION": "keyword:chrono-rhyme 4: Consume all keyword:incandescence. Deal !D! damage plus additional damage equal to your keyword:incandescence stacks. Damage is increased by !M! % for each stack consumed. NL Currently dealing !J_D! damage."
+  },
+  "Jinhsimod:Qiyuncard": {
+    "NAME": "Convene",
+    "DESCRIPTION": "Costs 10 Gold. NL Draw !M! cards. NL Has a 1/8 chance to perform keyword:convene NL Exhaust",
+    "EXTENDED_DESCRIPTION": ["Not enough Gold."]
+  },
+  "Jinhsimod:SFlash": {
+    "NAME": "Scintillating Flash",
+    "DESCRIPTION": "Deal !D! damage NL Gain !M! keyword:incandescence"
+  },
+  "Jinhsimod:LXJxiao": {
+    "NAME": "Heavenward Dragon's Roar",
+    "DESCRIPTION": "Deal !D! damage. NL keyword:chrono-rhyme 3:Deal 20 damage.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL keyword:chrono-rhyme 3:Deal 20 damage. NL Gain [E] "
+  },
+  "Jinhsimod:ZTQyue": {
+    "NAME": "Lunar Pursuit",
+    "DESCRIPTION": "Deal !D! damage 5 times. NL keyword:coordinated-attack : !M!"
+  },
+  "Jinhsimod:Shuang": {
+    "NAME": "Frost",
+    "DESCRIPTION": "Gain !M! [E] NL Gain 10 keyword:incandescence NL Gain 4 keyword:chrono-rhyme."
+  },
+  "Jinhsimod:Zhuocard": {
+    "NAME": "Scorch",
+    "DESCRIPTION": "At the start of your turn,randomly attack enemies !M! times, dealing 1 damage each time."
+  },
+  "Jinhsimod:Chen": {
+    "NAME": "Abyssal",
+    "DESCRIPTION": "At the start of your turn,Gain [E] NL Reduce !M! keyword:chrono-rhyme NL Not stackable"
+  },
+  "Jinhsimod:SYNhua": {
+    "NAME": "Jade-Fracture Luminescence",
+    "DESCRIPTION": "Deal !D! damage for each keyword:incandescence, up to !M! times.Remove all keyword:incandescence NL Exhaust"
+  },
+  "Jinhsimod:Chun": {
+    "NAME": "Vernal",
+    "DESCRIPTION": "Gain 1 keyword:thawing-triumph"
+  },
+  "Jinhsimod:SHSren": {
+    "NAME": "Ages of Harvest",
+    "DESCRIPTION": "Gain 1 keyword:ageless-marking NL Gain 1 keyword:ethereal-endowment"
+  },
+  "Jinhsimod:ShenghaiJue": {
+    "NAME": "Echo:Jue",
+    "DESCRIPTION": "Conjure  keyword:Jue"
+  },
+  "Jinhsimod:SHGming": {
+    "NAME": "Seasonal Resonance",
+    "DESCRIPTION": "Gain !M! keyword:incandescence NL keyword:chrono-rhyme 2: Gain 1 [E]"
+  },
+  "Jinhsimod:SYLzhuan": {
+    "NAME": "Chrono-Rhyme Flux",
+    "DESCRIPTION": "Gain !M! keyword:chrono-rhyme",
+    "UPGRADE_DESCRIPTION": "Gain 1 keyword:chrono-rhyme. NL Gain !B! Block."
+  },
+  "Jinhsimod:LiuGuang": {
+    "NAME": "Luminous Flux",
+    "DESCRIPTION": "Gain !B! Block. NL Spend  !M! keyword:incandescence"
+  },
+  "Jinhsimod:CheGuang": {
+    "NAME": "Beckoning light",
+    "DESCRIPTION": "Retain NL Gain Block equal to your keyword:incandescence.",
+    "UPGRADE_DESCRIPTION":"Retain NL Gain Block equal to your keyword:incandescence. NL Gain 5 keyword:incandescence "
+  },
+  "Jinhsimod:NingShen": {
+    "NAME": "Tranquilize",
+    "DESCRIPTION": "Retain NL Gain !B! Block NL keyword:chrono-rhyme 2:Gain !M! Block"
+  },
+  "Jinhsimod:WWLzhaun": {
+    "NAME": "Embrace the change",
+    "DESCRIPTION": "Exhaust all cards in your hand. Randomly obtain 6 cards. They cost 1 less and gain Exhaust and Ethereal."
+  },
+  "Jinhsimod:MuGuang": {
+    "NAME": "Radiant-Surge",
+    "DESCRIPTION": "Gain !B! Block NL Gain 3 keyword:chrono-rhyme . NL Draw 4 cards. NL A card gains Retain. NL Exhaust ",
+
+    "EXTENDED_DESCRIPTION": ["Choose a card to grant Retain."]
+  },
+  "Jinhsimod:Wanwuyixin": {
+    "NAME": "Unity of All Things",
+    "UPGRADE_DESCRIPTION":"Gain !B! Block NL keyword:chrono-rhyme 4:Cost reduced to 0.Add *Radiant-Surge+ to your hand.",
+    "DESCRIPTION": "获得 !B! 点防御 NL keyword:chrono-rhyme 4:Cost reduced to 0.Add *Radiant-Surge to your hand. "
+  },
+  "Jinhsimod:BaoDi": {
+    "NAME": "Pity-Timer",
+    "DESCRIPTION": "Draw 1 card. NL Spend !M! Gold.Perform a keyword:convene NL Remove from deck. NL Exhaust",
+    "EXTENDED_DESCRIPTION": ["Not enough Gold."]
+  },
+  "Jinhsimod:Youlong": {
+    "NAME": "Ordination Glow",
+    "DESCRIPTION": "Choose and spend !M! cards in your hand. Add 1 *Illuminous-Epiphany Dragon Breaks the Void to your hand."
+  },
+  "Jinhsimod:Shiling": {
+    "NAME": "In Season",
+    "DESCRIPTION": " keyword:chrono-rhyme 1:Gain 4 keyword:chrono-rhyme NL Gain 5 keyword:incandescence"
+  },
+  "Jinhsimod:Jieguang": {
+    "NAME": "Borrowed Light",
+    "DESCRIPTION": "Gain x*5 keyword:incandescence Gain !M! [E]"
+  },
+  "Jinhsimod:Qinghui": {
+    "NAME": "Lucid Gleam",
+    "DESCRIPTION": "Gain !M! keyword:chrono-rhyme"
+  },
+  "Jinhsimod:Shanfan": {
+    "NAME": "Dodge Counter",
+    "DESCRIPTION": "Gain !B! Block NL keyword:counterattack !M!"
+  },
+  "Jinhsimod:ZYCxincard": {
+    "NAME": "Bask in starlight",
+    "DESCRIPTION": "For each time keyword:chrono-rhyme is triggered this turn, reduce the cost of cards in your hand by 1."
+  },
+  "Jinhsimod:YLLxiao": {
+    "NAME": "The sky beckons",
+    "DESCRIPTION": "Gain 30 keyword:incandescence "
+  },
+  "Jinhsimod:CMXhan": {
+    "NAME": "Thawing harmony",
+    "DESCRIPTION": "Deal !D! damage NL keyword:chrono-rhyme !M! :Draw 2 cards"
+  },
+  "Jinhsimod:WXGwo": {
+    "NAME": "All Creation With Me",
+    "DESCRIPTION": "Deal !D! damage.Gain !B! Block.Randomly gain 1 keyword:incarnation / Strength / Dexterity / keyword:ageless-marking / keyword:ethereal-endowment NL Exhaust ",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage.Gain !B! Block.Randomly gain 1 keyword:incarnation / Strength / Dexterity / keyword:ageless-marking / keyword:ethereal-endowment"
+  },
+  "Jinhsimod:ZHYren": {
+    "NAME": "Blade of the Turning Year",
+    "DESCRIPTION": "Deal damage equal to your keyword:incandescence stacks, !M! times."
+  },
+  "Jinhsimod:YCLshan": {
+    "NAME": "Strike fast",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! keyword:chrono-rhyme. NL Gain 10 keyword:incandescence."
+  },
+  "Jinhsimod:LYQZhao": {
+    "NAME": "Take flight",
+    "DESCRIPTION": "Deal 6 damage. NL Play a random card from your discard pile.",
+    "UPGRADE_DESCRIPTION":"Deal 6 damage. NL Play a random card from your discard pile. NL Play a random card from your draw pile."
+  },
+  "Jinhsimod:JZYshun": {
+    "NAME": "Moment of awakening",
+    "DESCRIPTION": "Deal damage equal to your keyword:incandescence to an enemy, repeated X times. Remove all keyword:incandescence. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Deal damage equal to your keyword:incandescence to an enemy, repeated X+2 times. Remove all keyword:incandescence. NL Exhaust."
+  },
+  "Jinhsimod:ZGThong": {
+    "NAME": "Our lights shine through",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies, !M! times."
+  },
+  "Jinhsimod:XNBying": {
+    "NAME": "Florescent Shadows",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Gain 7 keyword:incandescence NL keyword:chrono-rhyme 4:Gain 4 keyword:chrono-rhyme ."
+  },
+  "Jinhsimod:Rong": {
+    "NAME": "Velvet",
+    "DESCRIPTION": "Gain 1 keyword:chrono-rhyme whenever you play a Skill."
+  },
+  "Jinhsimod:Jun": {
+    "NAME": "Sovereign",
+    "DESCRIPTION": " keyword:chrono-rhyme 2:Gain [E] each time keyword:chrono-rhyme is triggered."
+  },
+  "Jinhsimod:You": {
+    "NAME": "Divine Aegis",
+    "DESCRIPTION": "Gain !B! Block NL Gain keyword:chrono-rhyme Dexterity.",
+    "UPGRADE_DESCRIPTION":"Gain 1 Dexterity. NL Gain !B! Block NL Gain keyword:chrono-rhyme Dexterity."
+  },
+  "Jinhsimod:Guang": {
+    "NAME": "Luminous",
+    "DESCRIPTION": "At the end of turn, for every 2 Block you have, gain !M! keyword:incandescence."
+  },
+  "Jinhsimod:SFE": {
+    "NAME": "648",
+    "DESCRIPTION": "Deal 10 damage to yourself. NL Gain !M! Gold. NL Add 8 Convenes and 1 *Pity-Timer to your hand. NL Remove from deck on use. NL Exhaust."
+  },
+  "Jinhsimod:YSZxie": {
+    "NAME": "Purge of light",
+    "DESCRIPTION": "Deal !D! + keyword:incandescence damage to all enemies. NL For every 2 keyword:incandescence you have,increase this damage by !M!."
+  },
+  "Jinhsimod:PLQhui": {
+    "NAME": "Loong's Halo",
+    "DESCRIPTION": " keyword:chrono-rhyme 1:Deal !D! damage to all enemies 5 times."
+  },
+  "Jinhsimod:SLYzhuan": {
+    "NAME": "Fortuna's Turn",
+    "DESCRIPTION": "Ethereal NL Add 3 random Power cards to your hand. Their cost becomes 0. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Add 3 random Power cards to your hand. Their cost becomes 0. NL Exhaust."
+  },
+  "Jinhsimod:SShuo": {
+    "NAME": "Chrono-Threads",
+    "DESCRIPTION": "keyword:chrono-rhyme !M! :Gain X keyword:chrono-rhyme. NL Gain an additional turn, and end your current turn. NL Exhaust."
+  },
+  "Jinhsimod:SHua": {
+    "NAME": "Prime of Time",
+    "DESCRIPTION": " keyword:chrono-rhyme !M! :Double your current keyword:incandescence stacks."
+  },
+  "Jinhsimod:DZXqi": {
+    "NAME": "Shine forevermore",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to Attack: NL keyword:coordinated-attack !M!."
+  },
+  "Jinhsimod:ZDSling": {
+    "NAME": "The times is nigh",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Any unblocked damage is converted into keyword:coordinated-attack."
+  },
+  "Jinhsimod:XCGhong": {
+    "NAME": "Stellar Ark Pierces the Rainbow",
+    "DESCRIPTION": "Exhaust. NL keyword:chrono-rhyme 3:Deal damage equal to the last keyword:coordinated-attack damage dealt (!D!) to ALL enemies, !M! times."
+  },
+  "Jinhsimod:SJCshu": {
+    "NAME": "The hour of hope",
+    "DESCRIPTION": "Deal !D! damage.Gain [E]. Add 1 Void to your draw pile."
+  },
+  "Jinhsimod:CLHxing": {
+    "NAME": "Dive Loong's blessing",
+    "DESCRIPTION": "Requires more than !M! keyword:incandescence to play. Deal !D! damage."
+  },
+  "Jinhsimod:Khen": {
+    "NAME": "Engraving",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! keyword:coordinated-attack NL For each time this card has been played this combat, gain 3 additional keyword:coordinated-attack.",
+    "UPGRADE_DESCRIPTION":"Gain !B! Block. NL Gain !M! keyword:coordinated-attack NL For each time this card has been played this combat, gain 3 additional keyword:coordinated-attack."
+  },
+  "Jinhsimod:YChe": {
+    "NAME": "Jade-Clarity",
+    "DESCRIPTION": "Remove all keyword:incandescence. Gain !M! keyword:chrono-rhyme."
+  },
+  "Jinhsimod:Qyue": {
+    "NAME": "Luna-Purity",
+    "DESCRIPTION": "Your next Attack card gains keyword:coordinated-attack : !M!."
+  },
+  "Jinhsimod:Xxuan": {
+    "NAME": "Heart-Spiral",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! keyword:counterattack "
+  },
+  "Jinhsimod:Jfan": {
+    "NAME": "Mirror-Riposte",
+    "DESCRIPTION": "When counterattacking an enemy, randomly attack enemies !M! additional times, dealing damage equal to this instance of keyword:counterattack value."
+  },
+  "Jinhsimod:GHBJi": {
+    "NAME": "Concerto：Arboreal Flourish",
+    "DESCRIPTION": "Each time you play an Attack card: keyword:coordinated-attack : !M!"
+  },
+  "Jinhsimod:HSXling": {
+    "NAME": "Thunder guide us",
+    "DESCRIPTION": "Exhaust. NL Deal 10 damage. For every 2 keyword:counterattack, gain 1 Thorns.",
+    "UPGRADE_DESCRIPTION":"Deal 10 damage. For every 2 keyword:counterattack, gain 1 Thorns."
+  },
+  "Jinhsimod:YHXtian": {
+    "NAME": "Stellar Deception Patrol",
+    "DESCRIPTION": "Deal !D! damage 5 times. NL keyword:chrono-rhyme 2: Gain keyword:counterattack equal to your keyword:incandescence.",
+    "UPGRADE_DESCRIPTION":"Deal !D! damage 5 times. NL Gain 5 keyword:counterattack. NL keyword:chrono-rhyme 2: Gain keyword:counterattack equal to your keyword:incandescence."
+  },
+  "Jinhsimod:ZXJchu": {
+    "NAME": "Purge All Evils",
+    "DESCRIPTION": "Deal X damage a number of times equal to your keyword:incandescence stacks. NL Spend 20 keyword:incandescence.",
+    "UPGRADE_DESCRIPTION":"Deal X damage a number of times equal to your keyword:incandescence stacks. NL Gain 1 [E]. NL Spend 20 keyword:incandescence."
+  },
+  "Jinhsimod:TXTguang": {
+    "NAME": "Sacred light",
+    "DESCRIPTION": "Requires 50 keyword:incandescence to play. NL keyword:chrono-rhyme !M!: Deal !D! damage to ALL enemies.",
+    "UPGRADE_DESCRIPTION":"Requires 50 keyword:incandescence to play. NL keyword:chrono-rhyme !M!: Deal !D! damage to ALL enemies 2 times. Gain 4 keyword:chrono-rhyme."
+  },
+  "Jinhsimod:ShiXu": {
+    "NAME": "Chrono-Order",
+    "DESCRIPTION": "keyword:confinement 1 enemy. NL Exhaust."
+  },
+  "Jinhsimod:Yushi": {
+    "NAME": "Chrono-Command",
+    "DESCRIPTION": "Gain !M! keyword:chrono-rhyme. NL This turn, for every 2 times keyword:chrono-rhyme is triggered, randomly apply keyword:confinement to 1 enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION":"Gain !M! keyword:chrono-rhyme. NL This turn, for every 2 times keyword:chrono-rhyme is triggered, randomly apply keyword:confinement to 1 enemy."
+  },
+  "Jinhsimod:Jshi": {
+    "NAME": "Bygone Era",
+    "DESCRIPTION": "Exhaust. NL keyword:chrono-rhyme !M!: Draw 4 cards. Gain 1 [E]."
+  },
+  "Jinhsimod:YShou": {
+    "NAME": "Sanctuary Guard",
+    "DESCRIPTION": "Remove all keyword:incandescence. NL Gain 1 Intangible."
+  },
+  "Jinhsimod:Fan": {
+    "NAME": "Pervasion",
+    "DESCRIPTION": "keyword:counterattack affects ALL enemies."
+  },
+  "Jinhsimod:WMSbi": {
+    "NAME": "Perfect Dodge",
+    "DESCRIPTION": "Can only be played as the first card this turn. NL keyword:chrono-rhyme !M!: Gain 1 Intangible. NL Exhaust."
+  },
+  "Jinhsimod:Zmeng": {
+    "NAME": "Dreamweave",
+    "DESCRIPTION": "When keyword:luminal-synthesis is at or below !M! stacks, spend 50 Gold to perform 1 keyword:convene. NL Lose all Potions. NL Exhaust. NL Remove from deck on use.",
+    "UPGRADE_DESCRIPTION":"When keyword:luminal-synthesis is at or below !M! stacks, spend 50 Gold to perform 1 keyword:convene. NL Lose all Potions. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": ["Not enough Gold."]
+  },
+  "Jinhsimod:Xi": {
+    "NAME": "Xi",
+    "DESCRIPTION": "Each time keyword:chrono-rhyme is triggered, gain !M! keyword:chrono-rhyme."
+  },
+  "Jinhsimod:CMSzhang": {
+    "NAME": "Concerto：Starflower Blooms",
+    "DESCRIPTION": "Each time keyword:coordinated-attack is triggered, attack enemies !M! additional times and gain 5 Block. NL Max 2 stacks"
+  },
+  "Jinhsimod:Huan": {
+    "NAME": "Phantasm",
+    "DESCRIPTION": "For every 2 damage from keyword:counterattack, gain !M! keyword:counterattack. NL Max 2 stacks"
+  }
+}

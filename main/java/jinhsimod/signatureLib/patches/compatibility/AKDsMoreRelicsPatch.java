@@ -1,0 +1,42 @@
+package jinhsimod.signatureLib.patches.compatibility;
+
+@SuppressWarnings("unused")
+public class AKDsMoreRelicsPatch {
+//	private static final WeakHashMap<AbstractCard, Boolean> sorMap = new WeakHashMap<>();
+//
+//	@SpirePatch(clz = StoneOfResonance.class, method = "onUseCard",
+//			paramtypez = {AbstractCard.class, UseCardAction.class}, requiredModId = "AKDsMoreRelics")
+//	public static class StoneOfResonanceUpdatePatch {
+//		private static class Locator extends SpireInsertLocator {
+//			@Override
+//			public int[] Locate(CtBehavior ctBehavior) throws CannotCompileException, PatchingException {
+//				return LineFinder.findInOrder(ctBehavior,
+//						new Matcher.NewExprMatcher(NewQueueCardAction.class));
+//			}
+//		}
+//
+//		@SpireInsertPatch(locator = Locator.class, localvars = {"c2"})
+//		public static void Insert(StoneOfResonance _inst, AbstractCard card, UseCardAction action, AbstractCard c2) {
+//			c2.cardID = card.cardID;
+//			sorMap.put(c2, true);
+//		}
+//
+//		@SpirePrefixPatch
+//		public static SpireReturn<Void> Prefix(StoneOfResonance _inst, AbstractCard card, UseCardAction action) {
+//			if (sorMap.containsKey(card))
+//				return SpireReturn.Return();
+//
+//			return SpireReturn.Continue();
+//		}
+//	}
+//
+//	@SpirePatch(clz = StoneOfResonance.UseCardActionBuryPatch.class, method = "Insert",
+//			paramtypez = {UseCardAction.class}, requiredModId = "AKDsMoreRelics")
+//	public static class StoneOfResonancePatchPatch {
+//		@SpirePrefixPatch
+//		public static SpireReturn<SpireReturn<Void>> Prefix(UseCardAction action) {
+//			AbstractCard card = ReflectionHacks.getPrivate(action, UseCardAction.class, "targetCard");
+//			return SpireReturn.Return(sorMap.containsKey(card) ? SpireReturn.Return() : SpireReturn.Continue());
+//		}
+//	}
+}

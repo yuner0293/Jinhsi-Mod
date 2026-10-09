@@ -1,0 +1,10 @@
+{
+  "modid": "Jinhsimod",
+  "name": "今汐 Jinhsi",
+  "author_list": ["yuner"],
+  "description": "添加一个人物——今汐 Add a character — Jinhsi",
+  "version": "1.2",
+  "sts_version": "28-1-2024",
+  "mts_version": "3.30.3",
+  "dependencies": ["basemod"]
+}
